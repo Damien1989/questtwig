@@ -9,7 +9,9 @@ require 'products.php';
 $name = 'Wilder';
 
 echo $twig->render('home.html.twig', ['name' => $name]);
-echo $twig->render('products.html.twig', ['products' => $products]);
+
+
+
 
 
 
